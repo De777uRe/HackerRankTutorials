@@ -12,7 +12,6 @@ import java.util.*;
  * @author willi
  */
 public class Person {
-    
     private int age;	
   
     public Person(int initialAge) {
@@ -59,5 +58,4 @@ public class Person {
         }
 		sc.close();
     }
-    
 }

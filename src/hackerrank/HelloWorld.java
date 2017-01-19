@@ -12,7 +12,6 @@ import java.util.Scanner;
  * @author willi
  */
 public class HelloWorld {
-
     /**
      * @param args the command line arguments
      */

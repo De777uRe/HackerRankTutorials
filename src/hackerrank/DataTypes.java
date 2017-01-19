@@ -12,7 +12,6 @@ import java.util.Scanner;
  * @author willi
  */
 public class DataTypes {
-    
     public static void main(String args[]) {
         int i = 4;
         double d = 4.0;
@@ -43,5 +42,4 @@ public class DataTypes {
         
          scan.close();
     }
-    
 }

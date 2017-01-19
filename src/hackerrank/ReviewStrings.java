@@ -12,9 +12,7 @@ import java.util.Scanner;
  * @author willi
  */
 public class ReviewStrings {
-    
     public static void main(String args[]) {
-		
         Scanner scan = new Scanner(System.in);
         
         int numStrings = scan.nextInt();
@@ -38,8 +36,8 @@ public class ReviewStrings {
             }
             
             System.out.print("\n");
+            
+            scan.close();
         }
-        
     }
-    
 }

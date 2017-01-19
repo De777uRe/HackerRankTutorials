@@ -12,7 +12,6 @@ import java.util.Scanner;
  * @author willi
  */
 public class Operators {
-    
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         double mealCost = scan.nextDouble(); // original meal price
@@ -29,5 +28,4 @@ public class Operators {
         // Print your result
         System.out.println("The total meal cost is " + totalCost + " dollars.");
     }
-    
 }
