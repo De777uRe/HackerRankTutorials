@@ -42,14 +42,14 @@ public class BinaryNumbers {
             if(resultArray[i] == '1') {
                 if (streak < 1) {
                     streak = 1;
-                    if (i+1 < result.length()) {
+                }
+                if (i+1 < result.length()) {
                      if (resultArray[i+1] == '1') {
                         streak++;
                      }
-                    }
                 }
             }
-            else if (resultArray[i] == 0) {
+            else if (resultArray[i] == '0') {
                 streak = 0; 
             }
             
@@ -57,8 +57,6 @@ public class BinaryNumbers {
                 consecutive = streak;
             }
         }
-        
         System.out.println(consecutive);
     }
-    
 }
