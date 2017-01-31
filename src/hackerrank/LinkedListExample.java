@@ -12,7 +12,7 @@ import java.util.*;
  *
  * @author willi
  */
-public class LinkedList {
+public class LinkedListExample {
     
     static class Node {
 	int data;
