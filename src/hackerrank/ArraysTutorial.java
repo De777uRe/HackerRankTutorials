@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author willi
  */
-public class Arrays {
+public class ArraysTutorial {
     
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
