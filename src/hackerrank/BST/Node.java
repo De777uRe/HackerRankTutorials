@@ -54,7 +54,7 @@ public class Node {
         }
         
         //Better solution
-//        if (node == null) return 0;
-//  return 1 + max(findHeight(node.left), findHeight(node.right));
+//if (root == null) return -1;
+//  return 1 + Math.max(getHeight(root.left), getHeight(root.right));
     }
 }
